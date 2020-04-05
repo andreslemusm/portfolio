@@ -1,22 +1,28 @@
 import React from 'react';
-// import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 
 import Contact from './Contact';
 
+import './styles/App.scss';
+
 import Navigation from './Navigation';
 import Footer from './Footer';
-import Button from './Button';
 import Brand from './Brand';
+import About from '../views/About';
+import Portfolio from '../views/Portfolio';
 
 function App() {
   return (
-    <React.Fragment>
-      <Brand />
-      <Contact />
-      <Navigation />
-      <Button />
-      <Footer />
-    </React.Fragment>
+    <BrowserRouter>
+      <div id="app">
+        <Brand />
+        <Navigation />
+        <Contact />
+        <Route path="/about" component={About} />
+        <Route path="/portfolio" component={Portfolio} />
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 

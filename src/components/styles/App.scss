@@ -1,0 +1,9 @@
+@import '../../scss/abstracts/variables';
+
+#app {
+  min-height: 100vh;
+  padding: 3rem 3rem;
+  background-color: $color-secondary;
+  user-select: none;
+  position: relative;
+}

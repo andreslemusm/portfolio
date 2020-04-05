@@ -1,21 +1,21 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-import './styles/Button.scss';
+import './styles/Brand.scss';
 
-import logo from '../assets/favicon.png';
+import logo from '../assets/favicon-nav.png';
 
 export default function Brand() {
   return (
-    <a href="/about" className="brand">
+    <Link to="/about" className="brand">
       <picture className="brand__img">
-        <source srcSet={logo} media="(min-width: 120em)" />
+        {/* <source srcSet={logoSM} media="(min-width: 120em)" /> */}
         <img
           className="brand__img"
           srcSet={logo}
           alt="ACL Technologies Brand"
-          width="100"
         />
       </picture>
-    </a>
+    </Link>
   );
 }

@@ -6,13 +6,13 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons/';
 
 import './styles/Contact.scss';
 
-export default function () {
+export default function Contact() {
   return (
     <div className="contact">
       <ul className="contact__list">
         <li className="contact__item">
           <a
-            href="https://www.linkedin.com/in/realmartinzane/"
+            href="https://www.linkedin.com/in/andres-camilo-lemus-madrid-a7605a16b/"
             target="_blank"
             rel="noopener noreferrer"
             className="contact__link contact__link--linkedin">
