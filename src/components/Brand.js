@@ -1,21 +1,25 @@
+// REACT DEPENDENCIES
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
+// STYLES DEPENDENCIES
 import './styles/Brand.scss';
 
-import logo from '../assets/favicon-nav.png';
-
-export default function Brand() {
+export default function Brand(props) {
   return (
     <Link to="/about" className="brand">
       <picture className="brand__img">
-        {/* <source srcSet={logoSM} media="(min-width: 120em)" /> */}
         <img
           className="brand__img"
-          srcSet={logo}
+          srcSet={props.logo}
           alt="ACL Technologies Brand"
         />
       </picture>
     </Link>
   );
 }
+
+Brand.propTypes = {
+  logo: PropTypes.string.isRequired,
+};

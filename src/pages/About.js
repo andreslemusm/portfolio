@@ -9,9 +9,9 @@ import PrimaySub from '../components/PrimarySub';
 export default function About() {
   return (
     <main className="about">
-      <PrimaryHeader />
+      <PrimaryHeader firstLine="Andres" secondLine="Lemus" />
       <PrimaySub />
-      <Button />
+      <Button link="/portfolio" text="View Projects" />
     </main>
   );
 }

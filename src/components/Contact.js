@@ -1,18 +1,23 @@
+// REACT DEPENDENCIES
 import React from 'react';
+import PropTypes from 'prop-types';
+
+// ICONS DEPENDENCIES
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPortrait } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons/';
 
+// STYLES DEPENDENCIES
 import './styles/Contact.scss';
 
-export default function Contact() {
+export default function Contact(props) {
   return (
     <div className="contact">
       <ul className="contact__list">
         <li className="contact__item">
           <a
-            href="https://www.linkedin.com/in/andres-camilo-lemus-madrid-a7605a16b/"
+            href={props.linkedinUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="contact__link contact__link--linkedin">
@@ -23,7 +28,7 @@ export default function Contact() {
 
         <li className="contact__item">
           <a
-            href="https://github.com/andresclm"
+            href={props.githubUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="contact__link contact__link--github">
@@ -34,7 +39,7 @@ export default function Contact() {
 
         <li className="contact__item">
           <a
-            href="mailto:aclmadrid04@gmail.com"
+            href={`mailto:${props.email}`}
             target="_blank"
             rel="noopener noreferrer"
             className="contact__link contact__link--email">
@@ -45,7 +50,7 @@ export default function Contact() {
 
         <li className="contact__item">
           <a
-            href="https://drive.google.com/file/d/15W5tKjcJFKqmjEIYZxDX13dn2WDl8kgh/view"
+            href={props.resumeUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="contact__link contact__link--resume">
@@ -57,3 +62,10 @@ export default function Contact() {
     </div>
   );
 }
+
+Contact.propTypes = {
+  linkedinUrl: PropTypes.string.isRequired,
+  githubUrl: PropTypes.string.isRequired,
+  email: PropTypes.string.isRequired,
+  resumeUrl: PropTypes.string.isRequired,
+};

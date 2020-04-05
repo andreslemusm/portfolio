@@ -1,5 +1,7 @@
+// REACT DEPENDENCIES
 import React from 'react';
 
+// STYLES DEPENDENCIES
 import './styles/PrimarySub.scss';
 
 export default function PrimaySub() {

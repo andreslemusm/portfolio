@@ -1,7 +1,7 @@
 @import '../../scss/abstracts/variables';
 
 .contact {
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: -7rem;
   transform: translateY(-50%);

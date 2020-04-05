@@ -1,7 +1,11 @@
+// REACT DEPENDENCIES
 import React from 'react';
+// import PropTypes from 'prop-types';
 
+// STYLES DEPENDENCIES
 import './styles/Footer.scss';
 
+// POSIBLE IMPOROVEMENTS: DON'T BURN THE LICENSE, EMAIL, TEL
 export default function Footer() {
   return (
     <footer className="footer">
@@ -25,3 +29,9 @@ export default function Footer() {
     </footer>
   );
 }
+
+// Footer.propTypes = {
+//   license: PropTypes.string.isRequired,
+//   email: PropTypes.string.isRequired,
+//   tel: PropTypes.string.isRequired,
+// };
