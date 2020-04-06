@@ -11,6 +11,8 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons/';
 // STYLES DEPENDENCIES
 import './styles/Contact.scss';
 
+// POSIBLE IMPROVEMENTS: BEING ABLE TO CREATE WATHEVER LINK I WANT
+// Facebook, Instagram, Codewars, etc.
 export default function Contact(props) {
   return (
     <div className="contact">

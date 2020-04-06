@@ -1,22 +1,37 @@
+// REACT DEPENDENCIES
 import React from 'react';
 import PropTypes from 'prop-types';
 
+// ICONS DEPENDENCIES
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye, faTimes, faCode } from '@fortawesome/free-solid-svg-icons';
 
+// STYLES DEPENDENCIES
 import './styles/Project.scss';
 
+// NEW ANIMATION:
+//  1. Make one in Projects.scss
+//  2. Pass a prop with name preceed by ' ' (ex: ' slide-right')
 export default class Project extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       selected: false,
+      loading: true,
     };
     this.handleClick = this.handleClick.bind(this);
   }
 
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({
+        loading: false,
+      });
+    }, 400);
+  }
+
   handleClick() {
-    if (this.state.selected === false) {
+    if (!this.state.selected) {
       this.setState({ selected: true });
     } else {
       this.setState({ selected: false });
@@ -25,7 +40,10 @@ export default class Project extends React.Component {
 
   render() {
     return (
-      <div className="col-1-of-2 project">
+      <div
+        className={`col-1-of-2 project${
+          this.state.loading ? this.props.animation : ''
+        }`}>
         <div className="project__item">
           <img
             className="project__img"
@@ -105,4 +123,5 @@ export default class Project extends React.Component {
 
 Project.propTypes = {
   project: PropTypes.object.isRequired,
+  animation: PropTypes.string,
 };

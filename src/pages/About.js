@@ -1,17 +1,40 @@
+// REACT DEPENDENCIES
 import React from 'react';
 
+// STYLES DEPENDENCIES
 import './styles/About.scss';
 
+// COMPONENT DEPENDENCIES
 import PrimaryHeader from '../components/PrimaryHeader';
 import Button from '../components/Button';
 import PrimaySub from '../components/PrimarySub';
 
-export default function About() {
-  return (
-    <main className="about">
-      <PrimaryHeader firstLine="Andres" secondLine="Lemus" />
-      <PrimaySub />
-      <Button link="/portfolio" text="View Projects" />
-    </main>
-  );
+export default class About extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      loading: true,
+    };
+  }
+
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({
+        loading: false,
+      });
+    }, 200);
+  }
+
+  render() {
+    return (
+      <main className={`about${this.state.loading ? ' rotate' : ''}`}>
+        <PrimaryHeader firstLine="Andres" secondLine="Lemus" />
+        <PrimaySub>
+          I&apos;m a Frontend developer currently based in Medellin, Colombia
+        </PrimaySub>
+        <PrimaySub>Hit me up and let&apos;s create something special</PrimaySub>
+        <Button link="/portfolio" text="View Projects" />
+      </main>
+    );
+  }
 }
