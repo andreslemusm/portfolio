@@ -45,7 +45,7 @@ export default class Navigation extends React.Component {
           <ul className="navigation__list">
             <li className="navigation__item">
               <Link
-                to="/about"
+                to="/"
                 className="navigation__link"
                 onClick={this.handleCheck}>
                 <span>About</span>

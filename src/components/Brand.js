@@ -8,7 +8,7 @@ import './styles/Brand.scss';
 
 export default function Brand(props) {
   return (
-    <Link to="/about" className="brand">
+    <Link to="/" className="brand">
       <picture className="brand__img">
         <img
           className="brand__img"

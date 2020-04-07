@@ -1,6 +1,6 @@
 // REACT DEPENDENCIES
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 // STYLES DEPENDENCIES
 import './styles/App.scss';
@@ -22,7 +22,7 @@ import resume from '../assets/LEMUSMADRIDac_1152223198_hojaDeVida.pdf';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div id="app">
         <Brand logo={logo} />
         <Navigation />
@@ -32,8 +32,11 @@ function App() {
           email="aclmadrid04@gmail.com"
           resumeUrl={resume}
         />
-        <Route path="/about" component={About} />
-        <Route path="/portfolio" component={Portfolio} />
+        <Switch>
+          <Route exact path="/" component={About} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route component={() => <div>404 Not found </div>} />
+        </Switch>
         <Footer />
       </div>
     </BrowserRouter>
