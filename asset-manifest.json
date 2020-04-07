@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/about/static/css/main.259f1213.chunk.css",
-    "main.js": "/portfolio/about/static/js/main.179f8df1.chunk.js",
-    "main.js.map": "/portfolio/about/static/js/main.179f8df1.chunk.js.map",
-    "runtime-main.js": "/portfolio/about/static/js/runtime-main.d4f880fe.js",
-    "runtime-main.js.map": "/portfolio/about/static/js/runtime-main.d4f880fe.js.map",
-    "static/js/2.c1cf33ef.chunk.js": "/portfolio/about/static/js/2.c1cf33ef.chunk.js",
-    "static/js/2.c1cf33ef.chunk.js.map": "/portfolio/about/static/js/2.c1cf33ef.chunk.js.map",
-    "index.html": "/portfolio/about/index.html",
-    "precache-manifest.6f1a75d6ed922f7b738a2e9905bcf99f.js": "/portfolio/about/precache-manifest.6f1a75d6ed922f7b738a2e9905bcf99f.js",
-    "service-worker.js": "/portfolio/about/service-worker.js",
-    "static/css/main.259f1213.chunk.css.map": "/portfolio/about/static/css/main.259f1213.chunk.css.map",
-    "static/js/2.c1cf33ef.chunk.js.LICENSE.txt": "/portfolio/about/static/js/2.c1cf33ef.chunk.js.LICENSE.txt",
-    "static/media/LEMUSMADRIDac_1152223198_hojaDeVida.pdf": "/portfolio/about/static/media/LEMUSMADRIDac_1152223198_hojaDeVida.9d2de256.pdf"
+    "main.css": "/portfolio/static/css/main.259f1213.chunk.css",
+    "main.js": "/portfolio/static/js/main.c6264fa2.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c6264fa2.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.b37861ed.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.b37861ed.js.map",
+    "static/js/2.c1cf33ef.chunk.js": "/portfolio/static/js/2.c1cf33ef.chunk.js",
+    "static/js/2.c1cf33ef.chunk.js.map": "/portfolio/static/js/2.c1cf33ef.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.a08934af579f4105ced9922c85cd12be.js": "/portfolio/precache-manifest.a08934af579f4105ced9922c85cd12be.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.259f1213.chunk.css.map": "/portfolio/static/css/main.259f1213.chunk.css.map",
+    "static/js/2.c1cf33ef.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c1cf33ef.chunk.js.LICENSE.txt",
+    "static/media/LEMUSMADRIDac_1152223198_hojaDeVida.pdf": "/portfolio/static/media/LEMUSMADRIDac_1152223198_hojaDeVida.9d2de256.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.d4f880fe.js",
+    "static/js/runtime-main.b37861ed.js",
     "static/js/2.c1cf33ef.chunk.js",
     "static/css/main.259f1213.chunk.css",
-    "static/js/main.179f8df1.chunk.js"
+    "static/js/main.c6264fa2.chunk.js"
   ]
 }
