@@ -4,7 +4,7 @@ My personal portfolio website to exhibit the projects I'm proud the most: [Visit
 
 ## Built With
 
-* [React](https://reactjs.org/) - The JavaScript framework used
+* [React](https://reactjs.org/) - JavaScript Framework
 * [SASS](https://sass-lang.com/) - CSS Pre-Processor
 * [BEM](http://getbem.com/) - CSS Methodology
 
