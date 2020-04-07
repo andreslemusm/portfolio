@@ -18,6 +18,8 @@ import Portfolio from '../pages/Portfolio';
 // BRAND LOGO
 import logo from '../assets/favicon-nav.png';
 
+import resume from '../assets/LEMUSMADRIDac_1152223198_hojaDeVida.pdf';
+
 function App() {
   return (
     <BrowserRouter>
@@ -28,7 +30,7 @@ function App() {
           linkedinUrl="https://www.linkedin.com/in/andres-camilo-lemus-madrid-a7605a16b/"
           githubUrl="https://github.com/andresclm"
           email="aclmadrid04@gmail.com"
-          resumeUrl="https://drive.google.com/file/d/15W5tKjcJFKqmjEIYZxDX13dn2WDl8kgh/view"
+          resumeUrl={resume}
         />
         <Route path="/about" component={About} />
         <Route path="/portfolio" component={Portfolio} />

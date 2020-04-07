@@ -28,9 +28,9 @@ export default class About extends React.Component {
   render() {
     return (
       <main className={`about${this.state.loading ? ' rotate' : ''}`}>
-        <PrimaryHeader firstLine="Andres" secondLine="Lemus" />
+        <PrimaryHeader firstLine="I'm" secondLine="Andres Lemus" />
         <PrimaySub>
-          I&apos;m a Frontend developer currently based in Medellin, Colombia
+          A Front End developer currently based in Medellin, Colombia.
         </PrimaySub>
         <PrimaySub>Hit me up and let&apos;s create something special</PrimaySub>
         <Button link="/portfolio" text="View Projects" />

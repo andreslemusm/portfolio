@@ -55,7 +55,8 @@ export default function Contact(props) {
             href={props.resumeUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="contact__link contact__link--resume">
+            className="contact__link contact__link--resume"
+            download>
             <span className="contact__label">Resume</span>
             <FontAwesomeIcon icon={faPortrait} />
           </a>

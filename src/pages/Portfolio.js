@@ -17,8 +17,8 @@ export default function Portfolio() {
     <main>
       <SecondaryHeader animation=" slide-top">Portfolio</SecondaryHeader>
       <SecondarySub animation=" slide-top">
-        These are my favorite projects I&apos;ve worked on for the past year.
-        Have a look around and make sure to hit me up!
+        I&apos;m currently working on amazing projects to show you. Be sure to
+        check my github to see how much progress I have.
       </SecondarySub>
       <Projects projectsData={projectsData} />
     </main>

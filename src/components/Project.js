@@ -49,7 +49,6 @@ export default class Project extends React.Component {
             className="project__img"
             src={this.props.project.img}
             alt="Project"
-            width="300"
           />
           <div className="project__overlay">
             <div className="project__buttons">

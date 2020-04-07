@@ -25,7 +25,10 @@ export default class PrimaySub extends React.Component {
   handleHover(e) {
     e.persist(); // Keep the event alive while the aynchonous call
 
-    if (e.target.classList.contains('primary-sub__top')) {
+    if (
+      e.target.classList.contains('primary-sub__top') ||
+      e.target.classList.contains('primary-sub__bottom')
+    ) {
       e.target.parentNode.classList.add('primary-sub__word--active');
 
       // Push the timeId associate with the setTimeout() to the timeIds array
