@@ -1,6 +1,6 @@
 # Portfolio
 
-My personal portfolio website to exhibit the projects I'm proud the most: [Visit](https://andresclm.github.io/portfolio/)
+My personal portfolio website to showcase the latest projects I've built: [Visit](https://andresclm.github.io/portfolio/)
 
 ## Built With
 
