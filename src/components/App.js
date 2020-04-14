@@ -18,7 +18,7 @@ import Portfolio from '../pages/Portfolio';
 // BRAND LOGO
 import logo from '../assets/favicon-nav.png';
 
-import resume from '../assets/LEMUSMADRIDac_1152223198_hojaDeVida.pdf';
+import resume from '../assets/Andres_Camilo_Lemus_Madrid.pdf';
 
 function App() {
   return (
