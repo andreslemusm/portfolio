@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "381ac8b7dedebea42acc31b3195cfd50",
+    "revision": "026950b93b586253ff83e8e7d5b373e4",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "2e26e4adb2d703d705ed",
+    "revision": "f1346452f128fddafbbc",
     "url": "/portfolio/static/css/main.259f1213.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.c1cf33ef.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2e26e4adb2d703d705ed",
-    "url": "/portfolio/static/js/main.8e9f20c2.chunk.js"
+    "revision": "f1346452f128fddafbbc",
+    "url": "/portfolio/static/js/main.6cd645f1.chunk.js"
   },
   {
     "revision": "1e74db4740f99c68a0bf",
@@ -28,7 +28,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Andres_Camilo_Lemus_Madrid.d8fddb3a.pdf"
   },
   {
-    "revision": "67303e2ff83d5645b35b13b063e6592b",
-    "url": "/portfolio/static/media/andrew-hill.67303e2f.png"
+    "revision": "1063c8412dac73a6f64a34a8d28aa0e1",
+    "url": "/portfolio/static/media/andrew-hill.1063c841.jpg"
   }
 ]);
