@@ -1,14 +1,14 @@
 const proyectsData = [
   {
     name: 'Andrew Hill',
-    img: require('./project-images/andrew-hill.png'),
+    img: require('./project-images/andrew-hill.jpg'),
     technologies: ['HTML', 'PostCSS', 'SASS', 'JavaScript', 'BEM'],
     about: `The main reason of this project was to reinforce my vanilla habilities, before jumping entirely into React and its wonderful enviroment.
     
     I tried to limit myself to just use the old basics HTML, CSS and JavaScript and added some challenges like use the Google Maps API, make a multipage website and use tools like PostCSS to add browser compatibily and SASS to develop faster. 
     
     I used the BEM methodology in case my future me wants to reimplement the project in React (Not a fan of rewriting CSS).
-    
+
     Last thing and most important since I'm not a designer, this design was inspired by the TAKT Studio website.`,
     demoUrl: 'https://andresclm.github.io/real-estate/index.html',
     codeUrl: 'https://github.com/andresclm/real-estate',
