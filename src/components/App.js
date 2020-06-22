@@ -18,7 +18,7 @@ import Portfolio from '../pages/Portfolio';
 // BRAND LOGO
 import logo from '../assets/favicon-nav.png';
 
-import resume from '../assets/Andres_Camilo_Lemus_Madrid.pdf';
+import resume from '../assets/LEMUSMADRIDac_1152223198_CV.pdf';
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
         <Brand logo={logo} />
         <Navigation />
         <Contact
-          linkedinUrl="https://www.linkedin.com/in/andres-camilo-lemus-madrid-a7605a16b/"
+          linkedinUrl="https://www.linkedin.com/in/andresclm/"
           githubUrl="https://github.com/andresclm"
           email="aclmadrid04@gmail.com"
           resumeUrl={resume}
