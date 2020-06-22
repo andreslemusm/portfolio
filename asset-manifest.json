@@ -1,24 +1,25 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.259f1213.chunk.css",
-    "main.js": "/portfolio/static/js/main.4fd304c0.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.4fd304c0.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.bd4439d1.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.bd4439d1.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.b37861ed.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.b37861ed.js.map",
     "static/js/2.c1cf33ef.chunk.js": "/portfolio/static/js/2.c1cf33ef.chunk.js",
     "static/js/2.c1cf33ef.chunk.js.map": "/portfolio/static/js/2.c1cf33ef.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.9a8886009ccd083c6153efb7ec244109.js": "/portfolio/precache-manifest.9a8886009ccd083c6153efb7ec244109.js",
+    "precache-manifest.108faef919101c91ad335aa2a907991c.js": "/portfolio/precache-manifest.108faef919101c91ad335aa2a907991c.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.259f1213.chunk.css.map": "/portfolio/static/css/main.259f1213.chunk.css.map",
     "static/js/2.c1cf33ef.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c1cf33ef.chunk.js.LICENSE.txt",
-    "static/media/Andres_Camilo_Lemus_Madrid.pdf": "/portfolio/static/media/Andres_Camilo_Lemus_Madrid.d8fddb3a.pdf",
-    "static/media/andrew-hill.jpg": "/portfolio/static/media/andrew-hill.1063c841.jpg"
+    "static/media/LEMUSMADRIDac_1152223198_CV.pdf": "/portfolio/static/media/LEMUSMADRIDac_1152223198_CV.38010f53.pdf",
+    "static/media/andrew-hill.jpg": "/portfolio/static/media/andrew-hill.b55e8692.jpg",
+    "static/media/mr-news.png": "/portfolio/static/media/mr-news.3271b81f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b37861ed.js",
     "static/js/2.c1cf33ef.chunk.js",
     "static/css/main.259f1213.chunk.css",
-    "static/js/main.4fd304c0.chunk.js"
+    "static/js/main.bd4439d1.chunk.js"
   ]
 }
