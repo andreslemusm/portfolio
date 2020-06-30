@@ -4,7 +4,8 @@ My personal portfolio website to showcase the latest projects I've built: [Visit
 
 ## Built With
 
-* [React](https://reactjs.org/) - JavaScript Framework
+* [TypeScript](https://www.typescriptlang.org/) - JavaScript Superset
+* [React](https://reactjs.org/) - JavaScript UI Library
 * [SASS](https://sass-lang.com/) - CSS Pre-Processor
 * [BEM](http://getbem.com/) - CSS Methodology
 
