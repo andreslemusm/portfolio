@@ -1,4 +1,4 @@
-@import '../../scss/abstracts/variables';
+@import "../../scss/abstracts/variables";
 
 .primary-sub {
   color: $color-text;
@@ -8,6 +8,14 @@
 
   @media only screen and (max-width: 44.375em) {
     font-size: 2rem;
+  }
+
+  &__top {
+    margin-bottom: 1rem;
+  }
+
+  &__bottom {
+    color: $color-text-dark;
   }
 
   &__word {
@@ -26,10 +34,6 @@
       transition: all 250ms;
     }
 
-    &__bottom {
-      visibility: hidden;
-    }
-
     &--active * {
       transform: translateY(-4rem);
 
@@ -37,17 +41,5 @@
         transform: translateY(-3rem);
       }
     }
-
-    &--active &__bottom {
-      visibility: visible;
-    }
-  }
-
-  &__top {
-    margin-bottom: 1rem;
-  }
-
-  &__bottom {
-    color: $color-text-dark;
   }
 }

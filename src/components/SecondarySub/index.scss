@@ -1,4 +1,4 @@
-@import '../../scss/abstracts/variables';
+@import "../../scss/abstracts/variables";
 
 .secondary-sub {
   font-family: $font-secondary;
@@ -10,4 +10,10 @@
   user-select: text;
 
   transition: all 300ms ease-out;
+}
+
+.slide-top {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-5rem);
 }

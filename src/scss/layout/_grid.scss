@@ -1,36 +1,31 @@
-.row
-{
-    max-width: $grid-width;
-    margin: 0 auto;
+.row {
+  max-width: $grid-width;
+  margin: 0 auto;
 
-    &:not(:last-child) 
-    {
-        margin-bottom: $gutter-vertical; 
-    } 
+  &:not(:last-child) {
+    margin-bottom: $gutter-vertical;
+  }
 
-    @include clearfix;
+  @include clearfix;
 
-    [class^="col-"]
-    {
-        float: left;
-        &:not(:last-child)
-        {
-            margin-right: $gutter-horizontal;
-        }
+  [class^='col-'] {
+    float: left;
+    &:not(:last-child) {
+      margin-right: $gutter-horizontal;
+    }
+  }
+
+  .col-1-of-2 {
+    width: calc((100% - #{$gutter-horizontal}) / 2);
+
+    @media only screen and (max-width: 44.375em) {
+      width: 95%;
+      &:not(:last-child) {
+        margin-bottom: 5rem;
+      }
     }
 
-    .col-1-of-2
-    {
-        width: calc((100% - #{$gutter-horizontal}) / 2);
-
-        @media only screen and (max-width: 44.375em)
-        {
-            width: 95%;
-            &:not(:last-child) {margin-bottom: 5rem}
-        }
-
-        @media only screen and (max-width: 31.25em)
-        {
-        }
+    @media only screen and (max-width: 31.25em) {
     }
+  }
 }

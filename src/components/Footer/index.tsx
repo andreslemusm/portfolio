@@ -1,12 +1,12 @@
 // REACT DEPENDENCIES
-import React from 'react';
+import React from "react";
 // import PropTypes from 'prop-types';
 
 // STYLES DEPENDENCIES
-import './styles/Footer.scss';
+import "./index.scss";
 
 // POSIBLE IMPOROVEMENTS: DON'T BURN THE LICENSE, EMAIL, TEL
-export default function Footer() {
+export const Footer = (): JSX.Element => {
   return (
     <footer className="footer">
       <div className="footer__item">
@@ -14,13 +14,13 @@ export default function Footer() {
       </div>
       <div className="footer__item">
         <div className="footer__contact">
-          Email:{' '}
+          Email:{" "}
           <a href="mailto:aclmadrid04@gmail.com" className="footer__link">
             aclmadrid04@gmail.com
           </a>
         </div>
         <div className="footer__contact">
-          Tel:{' '}
+          Tel:{" "}
           <a href="tel: +57 304 524 3112" className="footer__link">
             +57 304 524 3112
           </a>
@@ -28,10 +28,4 @@ export default function Footer() {
       </div>
     </footer>
   );
-}
-
-// Footer.propTypes = {
-//   license: PropTypes.string.isRequired,
-//   email: PropTypes.string.isRequired,
-//   tel: PropTypes.string.isRequired,
-// };
+};

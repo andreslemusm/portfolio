@@ -1,13 +1,15 @@
-.portfolio {
-  margin-top: 4rem;
+.slide-top {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-5rem);
 }
 
-// Place to add new animations
 .slide-left {
   opacity: 0;
   visibility: hidden;
   transform: translateX(-5rem);
 }
+
 .slide-right {
   opacity: 0;
   visibility: hidden;
