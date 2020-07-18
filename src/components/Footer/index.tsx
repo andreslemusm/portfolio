@@ -19,12 +19,6 @@ export const Footer = (): JSX.Element => {
             aclmadrid04@gmail.com
           </a>
         </div>
-        <div className="footer__contact">
-          Tel:{" "}
-          <a href="tel: +57 304 524 3112" className="footer__link">
-            +57 304 524 3112
-          </a>
-        </div>
       </div>
     </footer>
   );
