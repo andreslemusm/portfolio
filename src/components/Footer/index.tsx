@@ -1,6 +1,5 @@
 // REACT DEPENDENCIES
 import React from "react";
-// import PropTypes from 'prop-types';
 
 // STYLES DEPENDENCIES
 import "./index.scss";
