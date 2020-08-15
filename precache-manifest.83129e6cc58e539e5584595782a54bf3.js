@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "970b0cc4a028ab1dbd2cea5b77bcfccf",
+    "revision": "ecf5685351e5e535b9d917ce319d4444",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "d92aeb4a138f79207e69",
-    "url": "/portfolio/static/css/main.a2644812.chunk.css"
+    "revision": "ecb7b9a8e3321ad213c3",
+    "url": "/portfolio/static/css/main.8ca9a8a3.chunk.css"
   },
   {
     "revision": "944cd8a0330190f4f847",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.7d181888.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d92aeb4a138f79207e69",
-    "url": "/portfolio/static/js/main.ae1a13ab.chunk.js"
+    "revision": "ecb7b9a8e3321ad213c3",
+    "url": "/portfolio/static/js/main.d0ccf9d0.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bcb3db840d958d9df157d2448cef13c9",
     "url": "/portfolio/static/media/LEMUSMADRIDac_CV.bcb3db84.pdf"
+  },
+  {
+    "revision": "3dded3cd5455494fb37387a2b07efef8",
+    "url": "/portfolio/static/media/aclm.3dded3cd.svg"
   },
   {
     "revision": "b55e8692fb31335ee3a9afdb6aa68b92",
