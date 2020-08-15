@@ -15,8 +15,8 @@ export const Portfolio = (): JSX.Element => (
   <main>
     <SecondaryHeader animation="slide-top">Portfolio</SecondaryHeader>
     <SecondarySub animation="slide-top">
-      I&apos;m currently working on amazing projects to show you. Be sure to
-      check my github to see how much progress I have.
+      These are my favorite projects I&apos;ve worked on for the past year, you
+      can see what I&apos;m currently working on in my GitHub.
     </SecondarySub>
     <div className="portfolio">
       <div className="row">
