@@ -25,15 +25,7 @@ export const projectsData: ReadonlyArray<IProject> = [
   {
     name: "MR NEWS",
     img: require("./projectImages/mr-news.png"),
-    technologies: [
-      "HTML",
-      "CSS",
-      "Tachyons",
-      "JavaScript",
-      "React",
-      "Redux",
-      "React Router",
-    ],
+    technologies: ["HTML", "CSS", "Tachyons", "JavaScript", "React", "Redux"],
     about: `This was my second block Acámica project, they gave us a checklist and like any real project, you would have to send it back acording to that checklist.
 
     The three most important topics that I learned were:
