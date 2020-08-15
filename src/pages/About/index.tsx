@@ -16,9 +16,7 @@ export const About = (): JSX.Element => {
   return (
     <main className={`about${isLoading ? " rotate" : ""}`}>
       <PrimaryHeader firstLine="I'm" secondLine="Andres Lemus" />
-      <PrimaySub>
-        A Front End developer currently based in Medellin, Colombia.
-      </PrimaySub>
+      <PrimaySub>A Front End developer currently based in Colombia.</PrimaySub>
       <PrimaySub>Hit me up and let&apos;s create something special</PrimaySub>
       <Button link="/portfolio" text="View Projects" />
     </main>

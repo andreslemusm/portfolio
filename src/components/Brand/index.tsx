@@ -12,7 +12,7 @@ type BrandProps = {
 export const Brand = ({ logo }: BrandProps): JSX.Element => (
   <Link to="/" className="brand">
     <picture className="brand__img">
-      <img className="brand__img" srcSet={logo} alt="ACL Technologies Logo" />
+      <img className="brand__img" srcSet={logo} alt="ACLM Logo" />
     </picture>
   </Link>
 );

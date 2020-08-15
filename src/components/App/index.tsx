@@ -16,7 +16,7 @@ import { About } from "../../pages/About";
 import { Portfolio } from "../../pages/Portfolio";
 
 // BRAND LOGO
-import logo from "./assets/brandLogo.png";
+import logo from "./assets/aclm.svg";
 
 export const App = (): JSX.Element => {
   return (
