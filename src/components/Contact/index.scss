@@ -1,4 +1,4 @@
-@import '../../scss/abstracts/variables';
+@import "../../scss/abstracts/variables";
 
 .contact {
   position: fixed;
@@ -40,6 +40,9 @@
     }
     &--github {
       background-color: $color-github;
+    }
+    &--instagram {
+      background-color: $color-instagram;
     }
     &--email {
       background-color: $color-email;

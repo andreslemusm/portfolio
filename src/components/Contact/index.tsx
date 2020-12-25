@@ -5,7 +5,11 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPortrait } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons/";
+import {
+  faLinkedin,
+  faGithub,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons/";
 
 // STYLES DEPENDENCIES
 import "./index.scss";
@@ -13,6 +17,7 @@ import "./index.scss";
 type ContactProps = {
   linkedInUser: string;
   gitHubUser: string;
+  instagramUser: string;
   email: string;
   resumeUrl: string;
 };
@@ -20,6 +25,7 @@ type ContactProps = {
 export const Contact = ({
   linkedInUser,
   gitHubUser,
+  instagramUser,
   email,
   resumeUrl,
 }: ContactProps): JSX.Element => {
@@ -47,6 +53,18 @@ export const Contact = ({
           >
             <span className="contact__label">Github</span>
             <FontAwesomeIcon icon={faGithub} />
+          </a>
+        </li>
+
+        <li className="contact__item">
+          <a
+            href={`https://www.instagram.com/${instagramUser}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contact__link contact__link--instagram"
+          >
+            <span className="contact__label">Insta</span>
+            <FontAwesomeIcon icon={faInstagram} />
           </a>
         </li>
 

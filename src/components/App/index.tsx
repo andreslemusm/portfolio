@@ -26,8 +26,9 @@ export const App = (): JSX.Element => {
           <Brand logo={logo} />
           <Navigation />
           <Contact
-            linkedInUser="andresclm"
-            gitHubUser="andresclm"
+            instagramUser="andreslemusm"
+            linkedInUser="andreslemusm"
+            gitHubUser="andreslemusm"
             email="aclmadrid04@gmail.com"
             resumeUrl={require("./assets/LEMUSMADRIDac_CV.pdf")}
           />
